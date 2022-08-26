@@ -1,0 +1,41 @@
+.Nav {
+    display: flex;
+    /* position: sticky; */
+    top:130px;
+    background-color: white;
+    justify-content: center;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 40px;
+}
+.Nav::-webkit-scrollbar {
+    display:none;
+}
+.Nav{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    cursor:pointer;
+    padding: 10px;
+    padding-left: 40px;
+}
+.nav > .MuiSvgIcon-root {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nav:hover >p{
+    display: inline-flex;
+}
+.nav >p {
+    display: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+}

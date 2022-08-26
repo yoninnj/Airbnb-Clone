@@ -1,0 +1,14 @@
+.videoCard {
+    width:300px;
+    height: 250px;
+    padding: 20px;
+    padding-bottom: 25px;
+    transition: transform 100ms ease-in;
+}
+
+.videoCard >img {
+    height:150px;
+    object-fit: contain;
+    width: 300px;
+
+}
